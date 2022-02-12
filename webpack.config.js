@@ -10,9 +10,7 @@ module.exports = {
   devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
-      // favicon: './src/homepage/resources/YUMCHA-Gold.svg',
       template: './src/index.html',
-      // title: 'TEALAX - Make Everything With Love',
       filename: 'index.html',
     }),
     new MiniCssExtractPlugin(),
